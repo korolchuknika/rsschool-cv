@@ -7,7 +7,6 @@
 
 ## About me
 I am a highly motivated person who wants to develop in the field of front-end development. My main qualities like: attention to details, negotiating skills, reliability make me a good team player.
-*********
 ## Skills
 * HTML/CSS
 * JavaScript(basic)
