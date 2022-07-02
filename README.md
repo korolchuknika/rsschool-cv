@@ -1,1 +1,1 @@
-https://korolchuknika.github.io/rsschool-cv/cv
+https://github.com/korolchuknika/rsschool-cv/blob/gh-pages/cv.md
