@@ -1,5 +1,4 @@
 # Korolchuk Nika
-********
 ## Contacts
 * Location:Minsk, Belarus
 * Phone: +375336930719
@@ -13,7 +12,7 @@ I am a highly motivated person who wants to develop in the field of front-end de
 * HTML/CSS
 * JavaScript(basic)
 * Git
-********
+
 ## Code example
 ```
 function multiply(a, b){
@@ -24,7 +23,6 @@ return a * b
 ```
 ## Education
 * University: Belarusian state university of transport
-* Courses: <HTMLAcademy>
 ## English
 B2
 
