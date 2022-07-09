@@ -15,7 +15,7 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -103,4 +103,7 @@ body {
     height: 10px; 
     border: 1px solid #829985;
     border-radius: 50%;
+  }
+  * {
+    box-sizing: border-box;
   }
