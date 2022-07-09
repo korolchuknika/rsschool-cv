@@ -42,8 +42,8 @@ body {
     padding: 0 20px;
     line-height: 50px;
     transition: .3s;
-
-  }
+    list-style: none;
+}
   
   .section-item a {
     color: #829985;
