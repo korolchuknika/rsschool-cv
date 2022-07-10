@@ -31,7 +31,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    list-style: none;
+    text-decoration: none;
     background: #829985;
   }
   html {
@@ -42,7 +42,7 @@ body {
     padding: 0 20px;
     line-height: 50px;
     transition: .3s;
-    list-style: none;
+    text-decoration: none;
 }
   
   .section-item a {
