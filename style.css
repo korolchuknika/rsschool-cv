@@ -15,17 +15,13 @@ body {
     min-height: 100%;
     margin: 0;
     padding: 0;
-    display: block;
-    flex-direction: column;
-    justify-content: space-between;
-    overflow:auto
 }
 
   .container {
     max-width: 1440px;
     margin: 0 auto;
-    display: block;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
   }
   .nav-list {
@@ -37,7 +33,6 @@ body {
   }
   html {
     scroll-behavior: smooth; 
-    overflow: auto;
   }
   
   .nav-link {
