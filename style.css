@@ -34,6 +34,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+  
   }
   .nav-list {
     list-style: none;
@@ -44,6 +45,10 @@ body {
   }
   .nav-link {
     transition: .3s;
+  }
+  .nav-item {
+    list-style: none;
+    text-decoration: none;
   }
   
   .section-item a {
