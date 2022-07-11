@@ -2,12 +2,13 @@
 <html>
   <head>
     <title>CV</title>
+    <link rel="icon" href="assets/img/fav.ico">
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
   </head>
 <body>
   <header class="header">
-    <div class="container">
+    <div class="container main-container">
     <nav class="nav">
       <ul class="nav-list">
         <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
@@ -21,43 +22,41 @@
     </div>
   </header>
     <main class="main">
-      <div class ="container main-container">
-        <link rel="icon" href="assets/img/fav.ico">
-      <section class="section" id="profile">
-        <h1 class="section-title">Korolchuk Nika</h1>
+        <div class="container main-container">
+      <section class="section section-profile" id="profile">
         <img src="./assets/img/image.jpg" width="200" height="222" alt="photo">
+        <div class="section-profile-title">
+          <h1 class="section-title main-title">Korolchuk Nika</h1>
+          <h3 class="section-subtitle">Junior Front-End Developer</h3>
+        </div>        
       </section>
-      </div>
-      <div class ="container main-container">
-      <section class="section" id="Contacts">
+
+        <section class="section" id="Contacts">
         <h2 class="section-title">Contacts</h2>
-        <ul>
-        <li>Location:Minsk, Belarus</li>
-        <li>Phone: +375336930719</li>
-        <li>Email:korolchuknika@yandex.by</li>
-        <li>GitHub:https://github.com/korolchuknika</li>
+        <ul class="section-list">
+        <li class="section-item contacts-item">Location:Minsk, Belarus</li>
+        <li class="section-item contacts-item">Phone: +375336930719</li>
+        <li class="section-item contacts-item">Email: <a herf="korolchuknika@yandex.by" title="email">korolchuknika@yandex.by</a></li>
+        <li class="section-item contacts-item">GitHub: <a href="https://github.com/korolchuknika" title="github">korolchuknika</a></li>
         </ul>
       </section>
-      </div>
-      <div class ="container main-container">
+     
       <section class="section" id="Summary">
         <h2 class="section-title">Summary</h2>
         <p>I am a highly motivated person who wants to develop in the field of front-end development. 
           My main qualities like: attention to details, negotiating skills, reliability make me a good team player.</p>
       </section>
-      </div>
-      <div class ="container main-container">
+      
       <section class="section" id="Skills">
         <h2 class="section-title">Skills</h2>
-        <ul>
+        <ul class="section-list">
           <li>HTML5/CSS3</li>
           <li>Javascript(basic)</li>
           <li>Git</li>
           <li>Figma</li>
         </ul>
       </section>
-      </div>
-      <div class ="container main-container">
+      
       <section class="section" id="Code">
         <h2 class="section-title">Code</h2>
         <p><javascript>function multiply(a, b)<br>
@@ -67,28 +66,25 @@
         </javascript>
       </p>
       </section>
-      </div>
-      <div class ="container main-container">
+     
       <section class="section" id="Education">
         <h2 class="section-title">Education</h2>
         <p>University: Belarusian state university of transport<br>
            Quatification: economist
         </p>
       </section>
-      </div>
-      <div class ="container main-container">
+     
       <section class="section" id="English">
         <h2 class="section-title">English</h2>
         <p>B1</p>
       </section>
-      </div>
-
+    </div>
     </main>
     <footer class="footer">
       <div class ="container main-container">
-        <p>korolchuknika</p>
+        <div>© 2022 <a href="https://github.com/irinainina" class="github nav-link">korolchuknika</a></div>
+        <a href="https://rs.school/js/" class="rss"></a>
       </div>
     </footer>
-  
-</body>
-</html>
+  </body>
+  </html>
